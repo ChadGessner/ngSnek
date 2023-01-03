@@ -1,0 +1,19 @@
+
+<div>
+    <app-snek-component 
+[isDead]="isGameOver" 
+[hadSnak]="addSnek()" 
+(timeEvent)="currentSnekIndexListener($event)" 
+></app-snek-component>
+    <h1 class="text-white" >Score: {{score}}</h1>
+    <div class="flex row grid-max-width ">
+        <div class="flex row" *ngFor="let cell of grid">
+            <div *ngIf="cell === 0" class="zero"></div>
+            <div *ngIf="cell === 1" class="snek"></div>
+            <div *ngIf="cell === 2" class="apple"></div>
+            <div *ngIf="cell === 3" class="wall"></div>
+        </div>
+    </div>
+</div>
+
+

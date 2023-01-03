@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+/* flex */
+.flex {
+    display: flex;
+}
+.row {
+    flex-flow: row wrap;
+}
+.col {
+    flex-flow: column wrap;
+}
+.max-width-130 {
+    max-width: 260px;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+/* spacing */
+.m-10 {
+    margin:10px;
+}
+.m-5 {
+    margin: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-5 {
+    padding: 5px;
+}
+/* colors */
+.purple {
+    background-color: rgb(111, 85, 136);
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+/* boxes */
+
+.bdr {
+    border: 1px solid white;
+}
+
+/* text */
+.text-white {
+    color:white;
+}
+.text-center {
+    text-align: center;
+}
+.text-large {
+    font-size: 24px;
+}

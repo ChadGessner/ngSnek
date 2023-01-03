@@ -1,0 +1,20 @@
+.start {
+    margin: 4px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 1px 2px 3px black;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+}
+.stop {
+    margin: 4px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 1px 2px 3px black;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}

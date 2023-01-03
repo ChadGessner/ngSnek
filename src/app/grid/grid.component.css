@@ -1,0 +1,33 @@
+
+.grid-max-width {
+    max-width: 400px;
+}
+
+.apple {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.snek {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border: 1px solid green;
+    box-shadow: 1px 2px 4px solid blue;
+    border-radius: 4px;
+}
+
+.zero {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.wall {
+    height: 10px;
+    width: 10px;
+    background-color: silver;
+    border: 1px solid brown;
+}
